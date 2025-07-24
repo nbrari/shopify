@@ -5,15 +5,17 @@
   Custom top bar only. Removed original announcement bar rendering.
 {% endcomment %}
 
-<div class="custom-top-bar" style="min-height:40px; display:flex; align-items:center; background:var(--color-background, #fff); font-size:1.6rem; font-weight:500; padding:0 16px;">
-  <div class="custom-top-bar__container" style="display:flex; align-items:center; width:100%;">
-    <div class="logo-switcher" style="margin-right:16px;">
-      <img src="{{ 'logo1-img.png' | asset_url }}" alt="Logo 1" class="logo logo-1 active" style="height:32px;"/>
-      <img src="{{ 'logo2-img.png' | asset_url }}" alt="Logo 2" class="logo logo-2" style="height:32px;"/>
+<div class="all-bar">
+  <div class="custom-top-bar">
+    <div class="custom-top-bar__container">
+      <div class="logo-switcher">
+        <img src="https://cdn.shopify.com/s/files/1/0640/8378/7881/files/logo1-img.png?v=1753264332" alt="Logo 1" class="logo logo-1 active" />
+        <img src="https://cdn.shopify.com/s/files/1/0640/8378/7881/files/logo2-img.png?v=1753264332" alt="Logo 2" class="logo logo-2" />
+      </div>
+      <p class="custom-top-bar__text">
+        Mother's Day is May 11 — order early!
+      </p>
     </div>
-    <p class="custom-top-bar__text" style="margin:0; font-size:1.6rem; font-weight:500;">
-      Mother's Day is May 11 — order early!
-    </p>
   </div>
 </div>
 
