@@ -1,0 +1,44 @@
+{% schema %}
+{
+  "name": "Custom Hero",
+  "tag": "section",
+  "class": "custom-hero-wrapper",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "hero_image",
+      "label": "Hero image"
+    },
+    {
+      "type": "text",
+      "id": "hero_alt",
+      "label": "Image alt text",
+      "default": "Hero banner"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Hero"
+    }
+  ]
+}
+{% endschema %}
+
+<section class="custom-hero-section">
+
+
+<!-- Hero Section Slider -->
+<div class="hero-slider">
+  <div class="slider-track">
+<img src="https://admin.shopify.com/store/nadja-brari/content/files/25791928139881?selectedView=all" alt="Vanilla Cheesecakes">
+    <!-- Add more <img> tags for other slides -->
+  </div>
+
+  <!-- Slider Dots -->
+  <div class="slider-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</div>
+</section>
